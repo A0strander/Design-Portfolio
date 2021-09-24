@@ -1,2 +1,2 @@
 # Design-Portfolio
-Public portfolio of work
+Public storage for independent projects.
