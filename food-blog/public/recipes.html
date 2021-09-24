@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Level Up: Cookbook</title>
+        <link href="/styles/baseStyle.css" rel="stylesheet">
+        <link href="/styles/itemStyles.css" rel="stylesheet">
+        <link rel="icon" href="images/1upLogoF1.png">
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <header class="header">
+                <div class="container">
+                    <img src="images/1upLogoF1.png" alt="Level Up Logo" style="float:left; margin-right:40px; width:54px; height:54px;">
+                    <h1 class="header__title">Level Up: Cookbook</h1>
+                    <h2 class="header__subtitle">One up your culinary skills.</h2>
+                </div>
+
+            </header>
+
+            <nav>
+                <ul>
+                        <a href="index.html">HOME</a>
+                        <a href="recipes.html" class = "current">RECIPES</a>
+                        <a href="articles.html">ARTICLES</a>
+                        <a href="saved.html">SAVED</a>
+                        <a href="notes.html">NOTES</a>
+                        <a href="list.html">GROCERY</a>
+                        <a href="about.html">ABOUT</a>
+                </ul>
+            </nav>
+
+            <div class="actions">
+                <div class="actions__container">
+                    <input class="input" id = "search-list" type="text" placeholder= "Filter List">
+                    <select id="filter-by" class="dropdown">
+                        <option value="alphabetical">Sort Alphabetically</option>
+                        <option value="byLevel">Sort By Level</option>
+                    </select>
+                </div>
+            </div>
+
+            <section class="posts">
+
+                <div class="container">
+                    <div id="playground"></div>
+                </div>
+
+            </section>
+
+            <aside>
+                <section class = "popular-recipes">
+                    <h2>Saved</h2>
+                    <a href="saved.html">Saved Recipes</a>
+                    <a href="notes.html">Notes</a>
+                    <a href="list.html">Grocery</a>
+                </section>
+                <section class = "contact-details">
+                    <h2>Contact</h2>
+                    <a href="https://www.facebook.com/">Facebook</a>
+                    <a href="https://twitter.com/?lang=en">Twitter</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                </section>
+            </aside>
+
+            <footer>&copy: 2021 Abigail Ostrander</footer>
+
+        </div>
+
+        <script src="/scripts/recipes-bundle.js"></script>
+    </body>
+</html>
